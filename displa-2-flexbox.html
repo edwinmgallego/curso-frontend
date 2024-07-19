@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            background: papayawhip;
+            justify-content: center;
+           
+            height: 200px;
+            flex-direction: column;
+        }
+        .item{
+            width: 30px;
+            height: 30px;
+            background: salmon;
+        }
+        .container .item:nth-child(2n+1){
+            background: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">UAO</div>
+        <div class="item">Universidad</div>
+        <div class="item">Autonoma</div>
+        <div class="item">de</div>
+        <div class="item">Occidente</div>
+    </div>
+</body>
+</html>
