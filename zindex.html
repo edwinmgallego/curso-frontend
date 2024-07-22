@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zindex</title>
+    <style>
+        div{
+            position: absolute;
+            background: salmon;
+        }
+        .one{
+            z-index: 5;
+        }
+        .two{
+            z-index: 4;
+        }
+
+        .red{
+            width: 200px;
+            height: 200px;
+            background: red;
+            z-index: 5;
+
+        }
+        .black{
+            width: 200px;
+            height: 200px;
+            background: black;
+            z-index: 4;
+
+
+        }
+        .yellow{
+             width: 200px;
+            height: 200px;
+            background: yellow;
+            z-index: 6;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="one">Universidad</div>
+    <div class="two">autonoma</div>
+    <div class="red">red</div>
+    <div>black
+        <div class="yellow">yellow</div>
+    </div>
+</body>
+</html>
