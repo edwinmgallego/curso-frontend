@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font: 1rem'Montserrat', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+    background-color: #057ddf;
+    border-radius: 10px;
+    box-shadow: 0040px#00DDFF;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    color: white;
+}
+
+.card__image{
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    object-position: center;
+}
+.card__title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #057ddf;
+}
+
+.card__text{
+    padding: 20px;
+    background-color: #057ddf;
+}
+
+.card__button{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
